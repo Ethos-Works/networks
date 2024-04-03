@@ -39,7 +39,7 @@
           "coins": [
             {
               "denom": "stake",
-              "amount": "250000000000"
+              "amount": "1000000000000"
             }
           ]
         }
@@ -47,7 +47,7 @@
       "supply": [
         {
           "denom": "stake",
-          "amount": "250000000000"
+          "amount": "1000000000000"
         }
       ],
       "denom_metadata": [],
