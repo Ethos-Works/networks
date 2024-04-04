@@ -38,7 +38,7 @@
           "address": "ethos19w07e35lpuc6x4revruv29yv6jn3wzth3m5038",
           "coins": [
             {
-              "denom": "stake",
+              "denom": "flux",
               "amount": "1000000000000"
             }
           ]
@@ -46,7 +46,7 @@
       ],
       "supply": [
         {
-          "denom": "stake",
+          "denom": "flux",
           "amount": "1000000000000"
         }
       ],
@@ -64,7 +64,7 @@
     "consensus": null,
     "crisis": {
       "constant_fee": {
-        "denom": "stake",
+        "denom": "flux",
         "amount": "1000"
       }
     },
@@ -134,7 +134,7 @@
       "params": {
         "min_deposit": [
           {
-            "denom": "stake",
+            "denom": "flux",
             "amount": "10000000"
           }
         ],
@@ -150,7 +150,7 @@
         "expedited_threshold": "0.667000000000000000",
         "expedited_min_deposit": [
           {
-            "denom": "stake",
+            "denom": "flux",
             "amount": "50000000"
           }
         ],
@@ -239,7 +239,7 @@
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
-        "mint_denom": "stake",
+        "mint_denom": "flux",
         "inflation_rate_change": "0.130000000000000000",
         "inflation_max": "0.200000000000000000",
         "inflation_min": "0.070000000000000000",
@@ -336,7 +336,7 @@
         "slash_meter_replenish_period": "3600s",
         "slash_meter_replenish_fraction": "0.05",
         "consumer_reward_denom_registration_fee": {
-          "denom": "stake",
+          "denom": "flux",
           "amount": "10000000"
         }
       },
@@ -363,7 +363,7 @@
         "max_validators": 100,
         "max_entries": 7,
         "historical_entries": 10000,
-        "bond_denom": "stake",
+        "bond_denom": "flux",
         "min_commission_rate": "0.000000000000000000"
       },
       "last_total_power": "0",
