@@ -137,15 +137,13 @@
     },
     "ethos": {
       "params": {
-        "consumer_default_validator": "0x1234",
         "oracle_epoch": "5",
-        "ethos_vault_address": "",
-        "freeze_duration": "1209600s",
+        "freeze_duration": "600s",
         "finality_delay": "0",
-        "registry_coordinator_address": "0x70e0bA845a1A0F2DA3359C97E0285013525FFC49",
-        "operator_state_retriever_address": "0x8f86403A4DE0BB5791fa46B8e795C547942fE4Cf",
-        "bls_apk_registry_address": "",
-        "service_manager_address": "0x998abeb3E57409262aE5b751f60747921B33613E",
+        "registry_coordinator_address": "0x55d1E957a0071F57Ae5b38EfCb70B796aA768A7e",
+        "operator_state_retriever_address": "0xd085215c0b4375B19946Dd87b14ef67Be35F9ff5",
+        "bls_apk_registry_address": "0xa7938Aa96355b45F293903f48fADDDDaeA030966",
+        "service_manager_address": "0xBf00805B2eB3eAE4aa0c0c9F9cD635357da53a90",
         "quorum_numbers": [
           "0"
         ]
@@ -373,15 +371,15 @@
             "amount": "10000000"
           }
         ],
-        "max_deposit_period": "172800s",
-        "voting_period": "172800s",
+        "max_deposit_period": "3600s",
+        "voting_period": "3600s",
         "quorum": "0.334000000000000000",
         "threshold": "0.500000000000000000",
         "veto_threshold": "0.334000000000000000",
         "min_initial_deposit_ratio": "0.000000000000000000",
         "proposal_cancel_ratio": "0.500000000000000000",
         "proposal_cancel_dest": "",
-        "expedited_voting_period": "86400s",
+        "expedited_voting_period": "1800s",
         "expedited_threshold": "0.667000000000000000",
         "expedited_min_deposit": [
           {
@@ -498,8 +496,8 @@
             "numerator": "1",
             "denominator": "3"
           },
-          "trusting_period": "0s",
-          "unbonding_period": "0s",
+          "trusting_period": "2400s",
+          "unbonding_period": "3600s",
           "max_clock_drift": "10s",
           "frozen_height": {
             "revision_number": "0",
@@ -594,7 +592,7 @@
     },
     "staking": {
       "params": {
-        "unbonding_time": "1814400s",
+        "unbonding_time": "3600s",
         "max_validators": 100,
         "max_entries": 7,
         "historical_entries": 10000,
@@ -641,7 +639,7 @@
         "app": "0"
       },
       "abci": {
-        "vote_extensions_enable_height": "0"
+        "vote_extensions_enable_height": "1"
       }
     }
   }
