@@ -497,7 +497,7 @@
             "denominator": "3"
           },
           "trusting_period": "0s",
-          "unbonding_period": "0s",
+          "unbonding_period": "3600s",
           "max_clock_drift": "10s",
           "frozen_height": {
             "revision_number": "0",
@@ -592,7 +592,7 @@
     },
     "staking": {
       "params": {
-        "unbonding_time": "1814400s",
+        "unbonding_time": "3600s",
         "max_validators": 100,
         "max_entries": 7,
         "historical_entries": 10000,
