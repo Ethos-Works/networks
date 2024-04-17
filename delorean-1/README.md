@@ -7,7 +7,7 @@ built against `linux-amd64`. You can verify this via:
 
 ```shell
 $ ethosd version
-0.2.2
+0.3.0
 ```
 
 ## Genesis
@@ -16,8 +16,8 @@ Ensure you have the correct `genesis.json` file by comparing the SHA256 hash of
 the file with the following:
 
 ```shell
-$ jq -S -c -M '' genesis.json | shasum -a 256
-26349e0b16071d15fb0de8021121bbf88293cca182e0ba87ff3626a574033cf2  -
+$ jq -S -c -M . genesis.json | shasum -a 256
+050c1c17d06c8600800572062f7ab35763478f82f42c809b0750ab225b00c02f  -
 ```
 
 ## Persistent Peers
