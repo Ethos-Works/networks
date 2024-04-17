@@ -1,4 +1,4 @@
-# delorean-1 Testnet
+# delorean-2 Testnet
 
 ## Binary
 
