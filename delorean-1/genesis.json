@@ -1,7 +1,7 @@
 {
   "app_name": "ethosd",
-  "app_version": "ee2da82",
-  "genesis_time": "2024-04-03T21:48:35.486103Z",
+  "app_version": "0.3.0",
+  "genesis_time": "2024-04-17T16:09:24.476166Z",
   "chain_id": "delorean-1",
   "initial_height": 1,
   "app_hash": null,
@@ -138,20 +138,26 @@
     "ethos": {
       "params": {
         "oracle_epoch": "5",
-        "freeze_duration": "600s",
-        "finality_delay": "0",
-        "registry_coordinator_address": "0x55d1E957a0071F57Ae5b38EfCb70B796aA768A7e",
-        "operator_state_retriever_address": "0xd085215c0b4375B19946Dd87b14ef67Be35F9ff5",
+        "freeze_duration": "1209600s",
+        "finality_delay": "64",
+        "registry_coordinator_address": "0x70e0bA845a1A0F2DA3359C97E0285013525FFC49",
+        "operator_state_retriever_address": "0x8f86403A4DE0BB5791fa46B8e795C547942fE4Cf",
         "bls_apk_registry_address": "0xa7938Aa96355b45F293903f48fADDDDaeA030966",
-        "service_manager_address": "0xBf00805B2eB3eAE4aa0c0c9F9cD635357da53a90",
+        "service_manager_address": "0x998abeb3E57409262aE5b751f60747921B33613E",
         "quorum_numbers": [
           "0"
-        ]
+        ],
+        "initial_bond_reward_delay": "0"
       },
       "operator_stakes": [],
       "operator_delegations": [],
       "chain_id_contract_addresses": [],
-      "last_injected_ve_height": "0"
+      "last_injected_ve_height": "0",
+      "frozen_operators": [],
+      "operator_provider_val_pub_keys": [],
+      "last_missed_ve_epoch": "0",
+      "operator_delegation_updates": [],
+      "operator_unallocated_rewards": []
     },
     "evidence": {
       "evidence": []
@@ -371,15 +377,15 @@
             "amount": "10000000"
           }
         ],
-        "max_deposit_period": "3600s",
-        "voting_period": "3600s",
+        "max_deposit_period": "172800s",
+        "voting_period": "172800s",
         "quorum": "0.334000000000000000",
         "threshold": "0.500000000000000000",
         "veto_threshold": "0.334000000000000000",
         "min_initial_deposit_ratio": "0.000000000000000000",
         "proposal_cancel_ratio": "0.500000000000000000",
         "proposal_cancel_dest": "",
-        "expedited_voting_period": "1800s",
+        "expedited_voting_period": "86400s",
         "expedited_threshold": "0.667000000000000000",
         "expedited_min_deposit": [
           {
@@ -481,14 +487,22 @@
       }
     },
     "params": null,
+    "poa": {
+      "params": {
+        "admins": [
+          "ethos10d07y265gmmuvt4z0w9aw880jnsr700j78lu59"
+        ],
+        "allow_validator_self_exit": true
+      }
+    },
     "provider": {
       "valset_update_id": "1",
       "consumer_states": [],
-      "unbonding_ops": [],
-      "mature_unbonding_ops": null,
       "valset_update_id_to_height": [],
       "consumer_addition_proposals": [],
       "consumer_removal_proposals": [],
+      "init_timeout_timestamps": [],
+      "exported_vsc_send_timestamps": [],
       "params": {
         "template_client": {
           "chain_id": "",
@@ -496,8 +510,8 @@
             "numerator": "1",
             "denominator": "3"
           },
-          "trusting_period": "2400s",
-          "unbonding_period": "3600s",
+          "trusting_period": "0s",
+          "unbonding_period": "0s",
           "max_clock_drift": "10s",
           "frozen_height": {
             "revision_number": "0",
@@ -572,12 +586,7 @@
           "denom": "flux",
           "amount": "10000000"
         }
-      },
-      "validator_consumer_pubkeys": [],
-      "validators_by_consumer_addr": [],
-      "consumer_addrs_to_prune": [],
-      "init_timeout_timestamps": [],
-      "exported_vsc_send_timestamps": []
+      }
     },
     "slashing": {
       "params": {
@@ -592,7 +601,7 @@
     },
     "staking": {
       "params": {
-        "unbonding_time": "3600s",
+        "unbonding_time": "1814400s",
         "max_validators": 100,
         "max_entries": 7,
         "historical_entries": 10000,
@@ -639,7 +648,7 @@
         "app": "0"
       },
       "abci": {
-        "vote_extensions_enable_height": "1"
+        "vote_extensions_enable_height": "0"
       }
     }
   }
