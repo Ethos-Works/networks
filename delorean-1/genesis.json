@@ -385,7 +385,7 @@
         "min_initial_deposit_ratio": "0.000000000000000000",
         "proposal_cancel_ratio": "0.500000000000000000",
         "proposal_cancel_dest": "",
-        "expedited_voting_period": "86400s",
+        "expedited_voting_period": "1800s",
         "expedited_threshold": "0.667000000000000000",
         "expedited_min_deposit": [
           {
