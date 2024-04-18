@@ -180,7 +180,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ethos-1-1",
+                  "moniker": "replace-me",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -233,7 +233,7 @@
             "tip": null
           },
           "signatures": [
-            "a6TPlwQzWhPcVUOc6r0E5lphia6KmB6J8zBwX7/vtTU++fYX8kxLaBFeThwa5pJ0JEV+YPVYM8OmQg3aDvGDTg=="
+            "eyH+7iN8K3QG9EtgZxRU8GF6klf9mQ9q4rtVOeZXp/d+P2JYqM99Nqt/hNsQmzQvOiVfS/W9HpekYZLNC48E3Q=="
           ]
         },
         {
@@ -242,7 +242,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ethos",
+                  "moniker": "replace-me",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -295,7 +295,7 @@
             "tip": null
           },
           "signatures": [
-            "dWyDmuEmiyWYtLaEeAZoE9eAbAmIyDnVmOC2yV4sQg4JRNJEghWCB2SIpl9nntKdH0i5waDimE1NuDiq4vTRmA=="
+            "G7ZNXikPvmjlwRXh4/sV9pT2R+z9BmQDA+Eo4iiO1w0IRQ/KI22hqP2UDugWcFhs+EsVgYyjaZEVmBn/aAeFWg=="
           ]
         },
         {
@@ -304,7 +304,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ethos-2-1",
+                  "moniker": "replace-me",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -357,7 +357,7 @@
             "tip": null
           },
           "signatures": [
-            "bQHyxhpXHqqHFLd3fTTSFVQw637+n45cFPzxR+Vz4uRex4snvv8IK18QqUXRVHmvb3nEq3M05ropzfR2unCQDQ=="
+            "CU79LDFbfKKPNTDsfidXygyjaJiQSClB1+eCVvdKh9Y4gGg2uLItPOU1OAtjDuzauymLAJmPu6Gxs3E6lUmFGw=="
           ]
         }
       ]
