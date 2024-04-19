@@ -112,7 +112,7 @@
         "consensus": null,
         "crisis": {
             "constant_fee": {
-                "denom": "stake",
+                "denom": "flux",
                 "amount": "1000"
             }
         },
