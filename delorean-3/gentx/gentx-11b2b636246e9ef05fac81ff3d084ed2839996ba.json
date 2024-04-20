@@ -1,0 +1,62 @@
+{
+    "body": {
+        "messages": [
+            {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                    "moniker": "replace-me",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                },
+                "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "ethosvaloper1cr6lg9hzj5p76m9cxruc68mdghkhth4afaetuj",
+                "pubkey": {
+                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                    "key": "1su9JsOpLhVrfiTP8iGSQoXk0yGYfzBuu8/bgKBLgAs="
+                },
+                "value": {
+                    "denom": "flux",
+                    "amount": "250000000000"
+                }
+            }
+        ],
+        "memo": "11b2b636246e9ef05fac81ff3d084ed2839996ba@172.25.0.2:26656",
+        "timeout_height": "0",
+        "extension_options": [],
+        "non_critical_extension_options": []
+    },
+    "auth_info": {
+        "signer_infos": [
+            {
+                "public_key": {
+                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                    "key": "AyUgXxZreTf2RqVlxsUMO/dqQDZGmUDO818lW2tqVtB/"
+                },
+                "mode_info": {
+                    "single": {
+                        "mode": "SIGN_MODE_DIRECT"
+                    }
+                },
+                "sequence": "0"
+            }
+        ],
+        "fee": {
+            "amount": [],
+            "gas_limit": "200000",
+            "payer": "",
+            "granter": ""
+        },
+        "tip": null
+    },
+    "signatures": [
+        "4nA+2ip1yUnpRgILDo6KJxMFxgtf9C6qL7MDiuArUOFWaXqzd1w6o9hjoFEm99Qynmm+g5Q2YO2u6d93gGEB9Q=="
+    ]
+}
