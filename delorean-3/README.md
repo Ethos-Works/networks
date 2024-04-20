@@ -17,7 +17,7 @@ the file with the following:
 
 ```shell
 $ jq -S -c -M . genesis.json | shasum -a 256
-
+37b48fbbd616d3cca1b5da9f1c516f506b8aaef4ed2690762a09aca9a82ff065  -
 ```
 
 ## Persistent Peers
