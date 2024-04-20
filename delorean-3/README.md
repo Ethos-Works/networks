@@ -23,3 +23,7 @@ $ jq -S -c -M . genesis.json | shasum -a 256
 ## Persistent Peers
 
 The following nodes can be set as `persistent_peers` in the `config.toml` file:
+
+* 11b2b636246e9ef05fac81ff3d084ed2839996ba@34.28.105.161:26656
+* 1ada2153b1948032d0de14fbbe7653e026fd4569@34.28.105.161:26666
+* f49d25edac6d494498fd198f0f7f46455892565b@34.28.105.161:26667
